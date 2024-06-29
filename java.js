@@ -1,13 +1,11 @@
-// 1. Realizar un programa que permita el ingreso de un numero y muestre su tabla de
-// multiplicar (Los primeros 10 multiplos).
+// 1. 
 
 let valorNumero = 5;
 for (let i = 1; i <= 10; i++) {
   console.log(`${valorNumero} x ${i} = ${valorNumero * i}`);
 }
 
-// 2. Realizar un programa que permita el ingreso de numeros los cuales se tienen que ir
-// acumulando. El ingreso de datos terminara cuando el usuario ingrese un valor 0.
+// 2.
 
 let entrada = 0;
 let numero;
@@ -19,7 +17,7 @@ do {
 
 console.log(`el resultado de La suma de  es: ${entrada}`);
 
-// 3. Realizar en juego de adivinar el numero del los ejercicios del tema anterior
+// 3.
 
 let adivinarNumero = Math.floor(Math.random() * 100) + 1;
 console.log(adivinarNumero);
@@ -36,7 +34,7 @@ do {
 } while (nuemroIncorporado !== adivinarNumero);
 console.log(`Ganaste, felicidades  ${intentos}`);
 
-// 4. Realizar un programa que permita decir si un numero es primo.
+// 4. 
 
 function esPrimo(numerop) {
   if (numerop <= 1) {
@@ -52,7 +50,7 @@ function esPrimo(numerop) {
 console.log(esPrimo(29)); // Output: true
 console.log(esPrimo(50)); // Output: fals
 
-// 5. Realizar un programa que permita dado un numero, mostrar todos sus divisores.
+// 5. 
 
 function verDivisores(numerop) {
   if (numerop <= 1) {
@@ -67,8 +65,7 @@ function verDivisores(numerop) {
 }
 console.log(verDivisores(50));
 
-// 6. Dado un array de 10 elementos, realizar un programa que recorra ese array y
-// muestre un mensaje por consola con cada uno de los elementos del array.
+// 6. 
 
 let arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function conteo(arregl) {
@@ -78,8 +75,7 @@ function conteo(arregl) {
 }
 conteo(arreglo);
 
-// 7. Dado un array de 10 numeros, realizar un programa que muestre por consola el
-// doble de cada uno de los elementos.
+// 7. 
 
 let arregloOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function condoble(arre) {
@@ -89,7 +85,7 @@ function condoble(arre) {
 }
 condoble(arregloOne);
 
-// 8. Dado un array con al menos 5 objetos comprendidos por un grupo familiar
+// 8. 
 
 let famvargas = [
   {
@@ -135,8 +131,7 @@ function Familia(famvargas) {
 }
 datosDeFamili(famvargas);
 
-// 9. Dado un array de 10 numeros, realizar un programa que recorra el array y solo
-// muestre los numeros impares.
+// 9. 
 
 let arregloTwo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function contimp(arg) {
@@ -148,9 +143,7 @@ function contimp(arg) {
 }
 contimp(arregloTwo);
 
-// 10. Realizar un programa que permita la entrada de numeros y calcule la suma de los
-// numeros pares por un lado y los impares por otro, el ingreso de dato finaliza cuando
-// el usuario ingresa un 0.
+// 10.
 
 function calsumas() {
   let sumpares = 0;
@@ -172,8 +165,7 @@ function calsumas() {
 }
 calsumas();
 
-// 11. Dado un array de 10 numeros, realizar un programa que imprima por pantalla el
-// numero mas grande.
+// 11. 
 
 let arreglothree = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function maximo(argl) {
@@ -187,8 +179,7 @@ function maximo(argl) {
 }
 maximo(arreglothree);
 
-// 12. Dado un array de 10 numeros, realizar un programa que imprima por pantalla el
-// numero mas chico.
+// 12. 
 
 let arreglofour = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function minimo(args) {
@@ -202,8 +193,7 @@ function minimo(args) {
 }
 minimo(arreglofour);
 
-// 13. Realizar un programa que permita jugar a piedra papel o tijeras, se debera poder
-// ingresar los nombres de 2 jugadores.
+// 13. 
 
 function ajugar() {
   let jugador1 = prompt(" Jugador 1 ingresa tu nombre");
@@ -231,7 +221,7 @@ function ajugar() {
 }
 ajugar();
 
-// 14. Realizar un programa que imprima por consola un triangulo de 5 asteriscos de lado
+// 14. 
 
 let lado = 5;
 
@@ -247,9 +237,7 @@ for (let inicio = 1; inicio <= lado; inicio++) {
   console.log(linea);
 }
 
-// 15. Realizar un programa que imprima por consola un triangulo de 5 asteriscos de lado
-// pero invertido.
-
+// 15. 
 let lado1 = 5;
 
 for (let inicio = ladoOne; inicio >= 1; inicio--) {
