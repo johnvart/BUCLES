@@ -91,49 +91,49 @@ condoble(arregloOne);
 
 // 8. Dado un array con al menos 5 objetos comprendidos por un grupo familiar
 
-let familicuellar = [
+let famvargas = [
   {
-    Nombre: "jair",
-    Apellidos: "cuellar sanchez",
-    Edad: "34",
-    Ocupacion: "rappi",
+    Nombre: "john",
+    Apellidos: "vargasTorres",
+    Edad: "38",
+    Ocupacion: "domiciliario",
   },
   {
-    Nombre: "juan",
-    Apellidos: "cuellar sanchez",
-    Edad: "24",
-    Ocupacion: "trabajador",
+    Nombre: "adela",
+    Apellidos: "torres",
+    Edad: "64",
+    Ocupacion: "amaDeCasa",
   },
   {
-    Nombre: "nuvia",
-    Apellidos: "sanchez",
-    Edad: "50",
-    Ocupacion: "madre",
+    Nombre: "orlando",
+    Apellidos: "vargas",
+    Edad: "70",
+    Ocupacion: "construccion",
   },
   {
-    Nombre: "yamil",
-    Apellidos: "cuellar",
-    Edad: "60",
-    Ocupacion: "campecino",
+    Nombre: "sandra",
+    Apellidos: "vargas",
+    Edad: "42",
+    Ocupacion: "callCenter",
   },
   {
-    Nombre: "andres",
-    Apellidos: "cuellar sanchez ",
-    Edad: "20",
-    Ocupacion: "campecino",
+    Nombre: "liz",
+    Apellidos: "vargas",
+    Edad: "40",
+    Ocupacion: "secretaria",
   },
 ];
-function datosDeFamili(familicuellar) {
-  console.log("datos  de mi familia:");
+function Familia(famvargas) {
+  console.log("mi familia:");
 
   // ejecutar el arreglo de los familiares
-  for (let persona of familicuellar) {
+  for (let persona of famvargas) {
     console.log(
       `Hola, soy ${persona.Nombre}, tengo ${persona.Edad} años, y trabajo como ${persona.Ocupacion}.`
     );
   }
 }
-datosDeFamili(familicuellar);
+datosDeFamili(famvargas);
 
 // 9. Dado un array de 10 numeros, realizar un programa que recorra el array y solo
 // muestre los numeros impares.
